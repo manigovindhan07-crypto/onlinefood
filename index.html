@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mani Fish Shop | Fresh Fish & Seafood</title>
+
+    <meta name="description"
+          content="Mani Fish Shop - Fresh fish and seafood in Nallur, Cuddalore District. Order fresh seafood today.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- ================= LOADING SCREEN ================= -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <div class="loader-logo">
+            🐟
+        </div>
+
+        <h1>MANI FISH SHOP</h1>
+
+        <p>Fresh Fish • Fresh Taste</p>
+
+        <div class="loader-line">
+            <span></span>
+        </div>
+
+        <small>Loading fresh seafood...</small>
+
+    </div>
+
+</div>    
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">🐟</span>
+
+            <div>
+                <strong>MANI</strong>
+                <small>FISH SHOP</small>
+            </div>
+        </a>
+
+        <nav class="desktop-menu">
+            <a href="#home">Home</a>
+            <a href="#products">Fresh Fish</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="language-btn" onclick="toggleLanguage()">
+                <i class="fa-solid fa-language"></i>
+                <span id="languageText">தமிழ்</span>
+            </button>
+
+            <button class="cart-btn" onclick="openCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cartCount">0</span>
+            </button>
+
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- MOBILE MENU -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="#home" onclick="closeMenu()">Home</a>
+    <a href="#products" onclick="closeMenu()">Fresh Fish</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#reviews" onclick="closeMenu()">Reviews</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+
+</div>
+
+
+<!-- ================= HERO ================= -->
+
+<!-- ================= PREMIUM HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-bg"></div>
+
+    <div class="ocean-glow glow-1"></div>
+    <div class="ocean-glow glow-2"></div>
+
+    <div class="fish-particle particle-1">🐟</div>
+    <div class="fish-particle particle-2">🐠</div>
+    <div class="fish-particle particle-3">🦐</div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <div class="hero-badge">
+                <span></span>
+                FRESH CATCH • EVERY DAY
+            </div>
+
+            <h1>
+                Fresh From
+                <br>
+                <span>The Ocean</span>
+                <br>
+                To Your Table.
+            </h1>
+
+            <p>
+                Premium fresh fish and seafood,
+                carefully selected for your family.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#products" class="hero-btn main-btn">
+                    <span>Explore Fresh Fish</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="https://wa.me/917010205030"
+                   target="_blank"
+                   class="hero-btn whatsapp-btn">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <span>Order Now</span>
+
+                </a>
+
+            </div>
+
+            <div class="hero-location">
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+                        Nallur, Cuddalore District
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+                        +91 70102 05030
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO PRODUCT VISUAL -->
+
+        <div class="hero-visual">
+
+            <div class="visual-circle circle-one"></div>
+            <div class="visual-circle circle-two"></div>
+
+            <div class="fish-main">
+                🐟
+            </div>
+
+            <div class="fresh-bubble bubble-one">
+                <strong>100%</strong>
+                <small>FRESH</small>
+            </div>
+
+            <div class="fresh-bubble bubble-two">
+                <i class="fa-solid fa-star"></i>
+                <strong>QUALITY</strong>
+                <small>SEAFOOD</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <div class="scroll-indicator">
+
+            <span></span>
+
+            SCROLL TO EXPLORE
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+    <div class="container feature-grid">
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-fish"></i>
+            </div>
+
+            <div>
+                <h3>100% Fresh</h3>
+                <p>Fresh seafood every day</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-shield-heart"></i>
+            </div>
+
+            <div>
+                <h3>Quality First</h3>
+                <p>Carefully selected products</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+
+            <div>
+                <h3>Easy Ordering</h3>
+                <p>Quick WhatsApp orders</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div>
+                <h3>Local Shop</h3>
+                <p>Nallur, Cuddalore</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="products-section" id="products">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-tag">OUR COLLECTION</span>
+
+                <h2>
+                    Fresh Fish & <span>Seafood</span>
+                </h2>
+            </div>
+
+            <p>
+                Choose your favourite seafood from our
+                fresh collection.
+            </p>
+
+        </div>
+
+
+        <!-- FILTER -->
+
+        <div class="filter-row">
+
+            <button class="filter active" onclick="filterProducts('all', this)">
+                All
+            </button>
+
+            <button class="filter" onclick="filterProducts('fish', this)">
+                Fish
+            </button>
+
+            <button class="filter" onclick="filterProducts('seafood', this)">
+                Seafood
+            </button>
+
+            <button class="filter" onclick="filterProducts('special', this)">
+                Special
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT GRID -->
+
+        <div class="product-grid" id="productGrid">
+
+
+            <!-- PRODUCT 1 -->
+
+            <article class="product-card" data-category="fish">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        FRESH
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh fish">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">FRESH FISH</span>
+
+                    <h3>Seabass</h3>
+
+                    <p class="product-description">
+                        Premium quality fresh seabass.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹420 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Seabass', 420)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+
+            <article class="product-card" data-category="fish">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        POPULAR
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh fish">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">FRESH FISH</span>
+
+                    <h3>Pomfret</h3>
+
+                    <p class="product-description">
+                        Fresh and delicious pomfret.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹650 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Pomfret', 650)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+
+            <article class="product-card" data-category="seafood">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        FRESH
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh prawns">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">SEAFOOD</span>
+
+                    <h3>Fresh Prawns</h3>
+
+                    <p class="product-description">
+                        Fresh sea prawns selected daily.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹550 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Fresh Prawns', 550)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+
+            <article class="product-card" data-category="seafood">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        SPECIAL
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh crab">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">SEAFOOD</span>
+
+                    <h3>Fresh Crab</h3>
+
+                    <p class="product-description">
+                        Fresh local crab with great taste.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹480 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Fresh Crab', 480)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+        <article class="product-card" data-category="seafood">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        SPECIAL
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh crab">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">SEAFOOD</span>
+
+                    <h3>Fresh Crab</h3>
+
+                    <p class="product-description">
+                        Fresh local crab with great taste.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹480 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Fresh Crab', 480)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+        <article class="product-card" data-category="seafood">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        SPECIAL
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh crab">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">SEAFOOD</span>
+
+                    <h3>Fresh Crab</h3>
+
+                    <p class="product-description">
+                        Fresh local crab with great taste.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹480 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Fresh Crab', 480)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+        <article class="product-card" data-category="seafood">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        SPECIAL
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh crab">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">SEAFOOD</span>
+
+                    <h3>Fresh Crab</h3>
+
+                    <p class="product-description">
+                        Fresh local crab with great taste.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹480 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Fresh Crab', 480)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>            
+
+
+            <!-- PRODUCT 5 -->
+
+            <article class="product-card" data-category="fish">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        FRESH
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1544943910-4c1dc44aab44?auto=format&fit=crop&w=900&q=80"
+                         alt="Fresh fish">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">FRESH FISH</span>
+
+                    <h3>King Fish</h3>
+
+                    <p class="product-description">
+                        Premium fresh king fish.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹750 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('King Fish', 750)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+
+            <article class="product-card" data-category="special">
+
+                <div class="product-image">
+
+                    <div class="fresh-label">
+                        TODAY
+                    </div>
+
+                    <img src="https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?auto=format&fit=crop&w=900&q=80"
+                         alt="Special fish">
+
+                    <button class="quick-view">
+                        <i class="fa-solid fa-eye"></i>
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <span class="product-category">TODAY'S SPECIAL</span>
+
+                    <h3>Premium Fish</h3>
+
+                    <p class="product-description">
+                        Today's selected fresh catch.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <div class="price">
+                            ₹580 <small>/ KG</small>
+                        </div>
+
+                        <button class="add-btn"
+                                onclick="addToCart('Premium Fish', 580)">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <div class="about-image-main">
+                🐟
+            </div>
+
+            <div class="experience-card">
+                <strong>FRESH</strong>
+                <span>EVERY DAY</span>
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="section-tag">ABOUT MANI FISH SHOP</span>
+
+            <h2>
+                Freshness You Can
+                <span>Trust.</span>
+            </h2>
+
+            <p>
+                At Mani Fish Shop, we believe that good food
+                starts with fresh ingredients. We carefully
+                select fresh fish and seafood to provide
+                quality products to our customers.
+            </p>
+
+            <div class="about-list">
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Fresh seafood selected daily
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Quality-focused service
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Local and trusted fish shop
+                </div>
+
+            </div>
+
+            <a href="#contact" class="btn primary-btn">
+                Visit Our Shop
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REVIEWS ================= -->
+
+<section class="reviews-section" id="reviews">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <div>
+                <span class="section-tag">CUSTOMER LOVE</span>
+
+                <h2>
+                    What Our Customers <span>Say</span>
+                </h2>
+            </div>
+
+        </div>
+
+
+        <div class="review-grid">
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Fresh fish and good quality. Very nice
+                    service. Definitely recommended.”
+                </p>
+
+                <div class="customer">
+                    <div class="customer-avatar">R</div>
+
+                    <div>
+                        <strong>Kumar</strong>
+                        <small>Local Customer</small>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Fish is fresh and the ordering process
+                    is very easy.”
+                </p>
+
+                <div class="customer">
+                    <div class="customer-avatar">S</div>
+
+                    <div>
+                        <strong>Chandru</strong>
+                        <small>Local Customer</small>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Good quality seafood and friendly shop.
+                    Fresh products every time.”
+                </p>
+
+                <div class="customer">
+                    <div class="customer-avatar">K</div>
+
+                    <div>
+                        <strong>Jayanthi</strong>
+                        <small>Local Customer</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div class="contact-content">
+
+                <span class="section-tag">
+                    FIND US
+                </span>
+
+                <h2>
+                    Visit <span>Mani Fish Shop</span>
+                </h2>
+
+                <p>
+                    Come and choose your favourite fresh
+                    fish and seafood.
+                </p>
+
+                <div class="contact-details">
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>
+                                Nallur, Cuddalore District,
+                                Tamil Nadu
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <span>Phone</span>
+                            <strong>
+                                +91 70102 05030
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+
+                        <div>
+                            <span>Opening Hours</span>
+                            <strong>
+                                Open Daily
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-buttons">
+
+                    <a href="tel:+917010205030"
+                       class="btn primary-btn">
+
+                        <i class="fa-solid fa-phone"></i>
+                        Call Shop
+
+                    </a>
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=Nallur+Cuddalore+Tamil+Nadu"
+                       target="_blank"
+                       class="btn outline-btn">
+
+                        <i class="fa-solid fa-location-arrow"></i>
+                        Get Directions
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="map-placeholder">
+
+                <div class="map-pin">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <h3>MANI FISH SHOP</h3>
+
+                <p>Nallur, Cuddalore</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo">
+
+                <span class="logo-icon">🐟</span>
+
+                <div>
+                    <strong>MANI</strong>
+                    <small>FISH SHOP</small>
+                </div>
+
+            </a>
+
+            <p>
+                Fresh fish. Fresh taste.
+                Fresh every day.
+            </p>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://wa.me/917010205030"
+                   target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#products">Fresh Fish</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Contact</h3>
+
+            <a href="tel:+917010205030">
+                +91 70102 05030
+            </a>
+
+            <a href="#">
+                Nallur
+            </a>
+
+            <a href="#">
+                Cuddalore District
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Mani Fish Shop. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= CART SIDEBAR ================= -->
+
+<div class="cart-overlay"
+     id="cartOverlay"
+     onclick="closeCart()">
+</div>
+
+
+<aside class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+
+        <div>
+            <span>YOUR ORDER</span>
+            <h2>Shopping Cart</h2>
+        </div>
+
+        <button onclick="closeCart()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-cart">
+
+            <div class="empty-cart-icon">
+                🛒
+            </div>
+
+            <h3>Your cart is empty</h3>
+
+            <p>Add fresh seafood to your cart.</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cartTotal">
+                ₹0
+            </strong>
+
+        </div>
+
+        <button class="whatsapp-order"
+                onclick="orderWhatsApp()">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            Order on WhatsApp
+
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a href="https://wa.me/917010205030"
+   class="floating-whatsapp"
+   target="_blank">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
